@@ -1233,6 +1233,10 @@ var specs = []stmtSpec{
 		unlink: []string{"table_name", "check_expr", "table_constraints"},
 	},
 	{
+		name:    "unsplit_stmt",
+		stmt:    "alter_unsplit_stmt",
+	},
+	{
 		name: "update_stmt",
 		inline: []string{
 			"opt_with_clause",
